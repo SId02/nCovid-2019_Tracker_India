@@ -1,0 +1,77 @@
+0<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/Chart.css" />
+		<title>NCOVID-2019 Tracker India</title>
+	</head>
+
+	<body>
+		<div class="container-fluid bg-light p-5 text-center my-3">
+			<h1 class="">Covid-19 Tracker India</h1>
+			<h5 class="text-muted">
+				An opensource project to keep track of all the NCOVID-2019 cases in
+				India
+			</h5>
+		</div>
+
+		<div class="container my-5">
+			<div class="row text-center">
+				<div class="col-3 text-warning">
+					<h5>Confirmed</h5>
+					<p id="confirmed"></p>
+				</div>
+				<div class="col-3 text-info">
+					<h5>Active</h5>
+					<p id="active"></p>
+				</div>
+				<div class="col-3 text-success">
+					<h5>Recovered</h5>
+					<p id="recovered"></p>
+				</div>
+				<div class="col-3 text-danger">
+					<h5>Deceased</h5>
+					<p id="deaths"></p>
+				</div>
+			</div>
+			<div><p id="date">Date : </p></div>
+		</div>
+
+		<div class="container bg-light p-3 my-5 text-center">
+			<p class="text-muted">Stay at Home Stay Safe.</p>
+		</div>
+
+		<canvas id="myChart"></canvas>
+
+		<div class="container text-center my-5">
+			<h6 class="text-info">
+				" Click on the Confirmed / Active / Recovered / Deaths buttons above to
+				see the chart individually. "
+			</h6>
+		</div>
+
+		<footer class="footer mt-5 py-3 bg-light">
+			<div class="container text-center">
+				<span class="text-muted">
+					Created using API
+					<a href="https://api.covid19api.com/" target="_blank">
+						covid19api.com</a
+					></span
+				>
+				This is Not official?
+			</div>
+		</footer>
+		<!--  -->
+		<!-- External Script Start -->
+		<script src="js/jquery-3.5.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/Chart.js"></script>
+		<!-- External Script Ends -->
+		<!-- Script start -->
+
+		<!--  -->
+	
+	</body>
+</html>
